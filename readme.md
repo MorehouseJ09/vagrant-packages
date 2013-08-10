@@ -12,6 +12,12 @@ Notes
 -	This should be exposed at vagrant.engineering.jumperapp.com
 -	Grunt task to read the local aws_secret / key etc 
 
+Downloads
+-
+
+-	[Base](http://vagrant.jumperapi.com/base.box)
+-	[Docker](http://vagrant.jumperapi.com/docker.box)
+
 Usage
 -
 
