@@ -12,30 +12,31 @@ module.exports = (grunt)->
 
 		# load in our aws configuration settings from a global jumper resource file
 		#aws: "~/Documents/production_development/jumper-devops/resources/grunt_aws.json""
-
 		s3:
-			# just go ahead and grab our devops key/secret for now
-			#key: "<%= aws.key %>"
-			#secret: "<%= aws.secret %>"
-			bucket: "vagrant.jumperapi.com"
-			access: "public-read"
+
+			options:
+				# just go ahead and grab our devops key/secret for now
+				#key: "<%= aws.key %>"
+				#secret: "<%= aws.secret %>"
+				bucket: "vagrant.jumperapi.com"
+				access: "public-read"
 	
-		dev:	
-			options: {}
+			dev:	
+				options: {}
 
-			upload: [
+				upload: [
 
-				{
+					{
 
-					src: "base/package.box"
-					dest: "base.box"
-					gzip: true
+						src: "./base/Vagrantfile"
+						dest: "base.box"
+						gzip: true
 
-				},
-				{
-					src: "docker/package.box"
-					dest: "docker.box"
-					gzip: true
-				}
-			]
+					},
+					{
+						src: "docker/Vagrantfile"
+						dest: "docker.box"
+						gzip: true
+					}
+				]
 
