@@ -30,3 +30,9 @@ Usage
 
 -	5.) You should now have a fully running version of the application box as needed
 
+
+Deployment
+-
+
+-	1.) Serve this repo at vagrant.jumperapi.com 
+-	2.) Initialize download links under downloads.jumperapi.com

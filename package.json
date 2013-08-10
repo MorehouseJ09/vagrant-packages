@@ -1,0 +1,17 @@
+{
+  "name": "vagrant",
+  "version": "0.0.0",
+  "description": "Vagrant Boxes / Packages and Documentation",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MorehouseJ09/vagrant-packages.git"
+  },
+  "author": "Jon Morehouse",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/MorehouseJ09/vagrant-packages/issues"
+  },
+  "devDependencies": {
+    "grunt-s3": "~0.2.0-alpha.2"
+  }
+}
