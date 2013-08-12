@@ -7,7 +7,6 @@ module.exports = (grunt)->
 
 	grunt.loadNpmTasks "grunt-s3"	
 	
-
 	grunt.initConfig
 
 		s3:
@@ -27,7 +26,15 @@ module.exports = (grunt)->
 					},
 					{
 						src: "docker/package.box" 
-						dest: "package.box"
+						dest: "docker.box"
+					},
+					{
+
+						src: "node/package.box"
+						dest: "node.box"
+
+
 					}
 				]
 
+	grunt.registerTask "default", "s3"	

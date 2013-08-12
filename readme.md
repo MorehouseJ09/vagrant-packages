@@ -17,6 +17,7 @@ Downloads
 
 -	[Base](http://vagrant.jumperapi.com/base.box)
 -	[Docker](http://vagrant.jumperapi.com/docker.box)
+-	[Node](http://vagrant.jumperapi.com/node.box)
 
 Usage
 -
