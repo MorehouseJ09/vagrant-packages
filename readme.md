@@ -3,14 +3,23 @@ Jon Morehouse's Vagrant Box Packages
 
 A place to keep my vagrant box packages for use on servers etc
 
-Notes
+Packages
 -
 
--	This should be delivered via a server in the future /s3
--	Each folder is a different package / box setup
--	This needs to initialize a grunt task to push all of the boxes  to the correct locations online
--	This should be exposed at vagrant.engineering.jumperapp.com
--	Grunt task to read the local aws_secret / key etc 
+-	Base 
+
+	-	Vim / Tmux installed
+	-	[Custom Dotfiles](http://github.com/MorehouseJ09/light-dotfiles)
+
+-	Docker
+
+	-	Base Package
+	-	[Docker](http://github.com/dotcloud/docker)
+
+-	Node
+
+	-	Docker Package
+	-	Node.js Installed via these [directions](http://schier.co/post/install-nodejs-on-ubuntu-server-with-ppa)
 
 Downloads
 -
@@ -43,3 +52,6 @@ Deployment
 
 -	1.) Serve this repo at vagrant.jumperapi.com 
 -	2.) Initialize download links under downloads.jumperapi.com
+
+
+
