@@ -28,6 +28,12 @@ Downloads
 -	[Docker](http://vagrant.jumperapi.com/docker.box)
 -	[Node](http://vagrant.jumperapi.com/node.box)
 
+Resources
+-
+
+-	[Git Config](https://help.github.com/articles/set-up-git)
+-	[Ubuntu Config Credential Caching](https://confluence.atlassian.com/display/STASH/Permanently+authenticating+with+Git+repositories)
+
 Usage
 -
 
